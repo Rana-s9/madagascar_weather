@@ -21,6 +21,9 @@ gem "jbuilder"
 
 gem "tailwindcss-rails"
 gem "tailwindcss-ruby", "3.4.17"
+
+gem "dotenv-rails"
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
