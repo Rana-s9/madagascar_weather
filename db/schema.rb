@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_05_09_043113) do
+ActiveRecord::Schema[7.2].define(version: 2025_05_09_075552) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -24,5 +24,7 @@ ActiveRecord::Schema[7.2].define(version: 2025_05_09_043113) do
     t.string "weather_description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "temp_min"
+    t.float "temp_max"
   end
 end
